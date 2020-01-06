@@ -1,0 +1,98 @@
+[
+  {
+    "author": "Terence Eden",
+    "date": "2020-01-06",
+    "description": "The current web paradigm places web browsers as the access point for users to get information. In the near future, we'll see a diversity of user agents and devices (e.g. cars, microwaves, etc...) pull information straight off of web pages.",
+    "link": "https://shkspr.mobi/blog/2019/12/the-future-of-the-web-isnt-the-web/",
+    "title": "The Future Of The Web, Isn’t The Web",
+    "tag": "Trend"
+  },
+  {
+    "author": "Alex Nixon",
+    "date": "2020-01-06",
+    "description": "Alex highlights the merits of writing a short memo to consider internal decisions. Writing a memo - as opposed to a presentation - makes the author think much more clearly and concisely about the issues at hand.",
+    "link": "https://alexnixon.github.io/2019/12/10/writing.html",
+    "title": "It's Time To Start Writing",
+    "tag": "Guide"
+  },
+  {
+    "author": "Julia Evans",
+    "date": "2020-01-06",
+    "description": "Julia asks and answers the question 'how does Facebook know that you went to Old Navy' by investigating tracking pixels - how they work and what you can do as a user to reduce the amount you're tracked.",
+    "link": "https://jvns.ca/blog/how-tracking-pixels-work/",
+    "title": "How Tracking Pixels Work",
+    "tag": "Guide"
+  },
+  {
+    "author": "Abid Omar",
+    "date": "2020-01-06",
+    "description": "In unnoticeable increments, ad by ad, paywall by paywall, companies trade user experience for revenue. This is not surprising but begs the question, where is the breaking point?",
+    "link": "https://omarabid.com/the-modern-web",
+    "title": "The Modern Web Is Becoming An Unusable, User-hostile Wasteland",
+    "tag": "Thought"
+  },
+  {
+    "author": "Armin Ronacher",
+    "date": "2020-01-06",
+    "description": "Armin wants a post-mortem on how the transition to Python 3 has been handled. There's a lack of transparency as to why the transition is needed. He feels like he's being 'sold' and forced into migrating when, in fact, there are other reasons this migration is needed.",
+    "link": "https://lucumr.pocoo.org/2019/12/28/open-source-migrates/",
+    "title": "Open Source Migrates With Emotional Distress",
+    "tag": "Programing"
+  },
+  {
+    "author": "Valentin Sawadski",
+    "date": "2020-01-06",
+    "description": "Minor bugs in both Apple and Amazon's products highlight a systemic organizational problem. New generations of programmers in larger institutions aren't transferred relevant information about previous projects that are the basis of current ones.",
+    "link": "https://tonsky.me/blog/good-times-weak-men/",
+    "title": "Good Times Create Weak Men",
+    "tag": "Thought"
+  },
+  {
+    "author": "Janna Koretz",
+    "date": "2020-01-06",
+    "description": "'Enmeshment' is where the boundaries between people become blurred, and individual identities lose importance. You can become enmeshed with your career too. This article discusses why this happens, the dangers and what you can do.",
+    "link": "https://hbr.org/2019/12/what-happens-when-your-career-becomes-your-whole-identity",
+    "title": "What Happens When Your Career Becomes Your Whole Identity",
+    "tag": "Trend"
+  },
+  {
+    "author": "Fortuna Eruditis Favet",
+    "date": "2020-01-06",
+    "description": "A series of articles putting Rust features in context for low-level C programmers who don't have a formal CS background - the sort of people who work on firmware, game engines, OS kernels, and the like.",
+    "link": "http://cliffle.com/p/dangerust/",
+    "title": "Learn Rust The Dangerous Way",
+    "tag": "Guide"
+  },
+  {
+    "author": "Vadim Semenov",
+    "date": "2020-01-06",
+    "description": "Podcast interview with Vadim Semenov discussing 'the systems that DataDog has built to power their business, and how their teams are organized to allow for rapid growth and massive scale.'",
+    "link": "https://www.dataengineeringpodcast.com/datadog-timeseries-data-episode-113/",
+    "title": "Building The DataDog Platform For Processing Timeseries Data At Massive Scale",
+    "tag": "Trend"
+  },
+  {
+    "author": "Tuukka Ojala",
+    "date": "2020-01-06",
+    "description": "This article demonstrates how Tuukka, a blind developer, writes code. He spends most of his time in the terminal, prefers Windows 10 as it's more accessible and has a screen reader that reads at 3x the speed that normal English is spoken.",
+    "link": "https://www.vincit.fi/fi/software-development-450-words-per-minute/",
+    "title": "Software Development 450 Words Per Minute",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Sacha Greif",
+    "date": "2020-01-06",
+    "description": "With over 21,717 respondents this survey is both a dive into various JS frameworks and a state of the union on how the community feels about the language and where it's heading.",
+    "link": "https://2019.stateofjs.com/",
+    "title": "The State of JavaScript 2019",
+    "tag": "Programing"
+  },
+  {
+    "author": "Edd Yerburgh",
+    "date": "2020-01-06",
+    "description": "The three books are Masters of Doom, On Writing Well & Ruby under a microscope.",
+    "link": "https://eddyerburgh.me/books-i-enjoyed-in-2019",
+    "title": "Books I Enjoyed In 2019",
+    "tag": "Book"
+  }
+]
