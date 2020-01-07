@@ -19,9 +19,9 @@ export default class Filter extends Component {
     const { items } = this.props;
     // Get the counts for each time
     const counts = [
-      'Trend',
+      'Trending',
       'Guide',
-      'Thought',
+      'Think',
       'Programing',
       'Interesting',
       'Book',
@@ -48,9 +48,9 @@ export default class Filter extends Component {
       <FilterList>
         {[
           ['All', false],
-          ['Trend', 'Trend'],
+          ['Trending', 'Trending'],
           ['Guide', 'Guide'],
-          ['Thought', 'Thought'],
+          ['Think', 'Think'],
           ['Programing', 'Programing'],
           ['Interesting', 'Interesting'],
           ['Book', 'Book'],

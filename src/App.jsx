@@ -78,7 +78,21 @@ export default class App extends Component {
     return (
       <div>
         <BannerMessage>
-          <a href="https://duthaho.com">{'A reading list build by duthaho'}</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://duthaho.com"
+          >
+            A reading list build by duthaho
+          </a>
+          &nbsp;-&nbsp;
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/duthaho/bookmark"
+          >
+            Open source
+          </a>
         </BannerMessage>
         <Search search={this.searchFilter} term={term} />
         <Filter

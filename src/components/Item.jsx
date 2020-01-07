@@ -2,6 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Bookmark from '../assets/bookmark.svg';
+import Trending from '../assets/trending.svg';
+import Guide from '../assets/guide.svg';
+import Interesting from '../assets/interesting.svg';
+import Programing from '../assets/programing.svg';
+import Think from '../assets/think.svg';
+import Book from '../assets/book.svg';
 
 // Import Styled Components
 import {
@@ -13,12 +19,21 @@ import {
   AgeRange,
 } from './Item.atoms';
 
+const icons = {
+  Trending,
+  Guide,
+  Interesting,
+  Programing,
+  Think,
+  Book,
+};
+
 const Item = props => {
   const { ...bookmark } = props;
   return (
     <ListItem>
       <IconContainer>
-        <Icon src={Bookmark} alt="Bookmark" />
+        <Icon src={icons[bookmark.tag] || Bookmark} alt="Bookmark" />
         <AgeRange>{bookmark.author}</AgeRange>
       </IconContainer>
       <ContentContainer>
