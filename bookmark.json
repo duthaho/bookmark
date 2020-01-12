@@ -1,5 +1,133 @@
 [
   {
+    "author": "Caleb Doxsey",
+    "date": "2020-01-12",
+    "description": "A response to the post above, Caleb argues that decreasing syscalls in a \"Hello World\" program results in \"imperceptible performance improvement\" while extra syscalls can provide value. Pursuing \"software minimalism\" doesn't always lead to improvements.",
+    "link": "https://www.doxsey.net/blog/a-response-to-hello-world",
+    "title": "A Response To Hello World",
+    "tag": "Programing"
+  },
+  {
+    "author": "Armin Ronacher",
+    "date": "2020-01-12",
+    "description": "Async has recently become popular. It's analyzed from the perspective of Flow Control and Back Pressure, concepts that prevent systems from overloading that are commonly overlooked.",
+    "link": "https://lucumr.pocoo.org/2020/1/1/async-pressure/",
+    "title": "I'm Not Feeling The Async Pressure",
+    "tag": "Programing"
+  },
+  {
+    "author": "James Sinclair",
+    "date": "2020-01-12",
+    "description": "Part 4 in a series on Functional Programming, James dives into Algebraic Data Types explaining what they are clarifying the parts that confused him most.",
+    "link": "https://jrsinclair.com/articles/2019/algebraic-structures-what-i-wish-someone-had-explained-about-functional-programming/",
+    "title": "Things I Wish Someone Had Explained To Me About Functional Programming",
+    "tag": "Programing"
+  },
+  {
+    "author": "Fortuna Eruditis Favet",
+    "date": "2020-01-12",
+    "description": "In Part of 6 of this Rust tutorial, Fortuna walks through how we'd rewrite a program from scratch in Rust, relying on compiler auto-vectorization.",
+    "link": "http://cliffle.com/p/dangerust/6/",
+    "title": "Let The Compiler Do The Work",
+    "tag": "Programing"
+  },
+  {
+    "author": "Mark Abeto",
+    "date": "2020-01-12",
+    "description": "Mark lays out common JavaScript interview questions answering each one.",
+    "link": "https://dev.to/macmacky/70-javascript-interview-questions-5gfi",
+    "title": "70 JavaScript Interview Questions",
+    "tag": "Guide"
+  },
+  {
+    "author": "Steven Luu",
+    "date": "2020-01-12",
+    "description": "The overhead of enums is comparatively low and comes with several practical benefits.",
+    "link": "https://www.luu.io/posts/dont-use-booleans/",
+    "title": "Don't Use Booleans",
+    "tag": "Think"
+  },
+  {
+    "author": "Robin Martijn",
+    "date": "2020-01-12",
+    "description": "In C, the placement of code comments impacts compilation. This leads to an explanation of Trigraphs and some of the the language decisions that were made early on.",
+    "link": "https://bowero.nl/blog/2019/12/15/c-what-the-fuck/",
+    "title": "C, What The Fuck??!",
+    "tag": "Programing"
+  },
+  {
+    "author": "@Cliqz",
+    "date": "2020-01-12",
+    "description": "With privacy protection and Google's lack of competition as inspiration, the team at Cliqz runs through the approach they've taken to build their own search engine.",
+    "link": "https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html",
+    "title": "Building A Search Engine From Scratch",
+    "tag": "Guide"
+  },
+  {
+    "author": "Valentin Sawadski",
+    "date": "2020-01-12",
+    "description": "Broken into 4 steps (1) self-care (2) realistic planning (3) optimize efficiency (4) understanding your '10x' - what can you do to make everything permanently easier.",
+    "link": "https://blog.veamly.com/stay-productive/",
+    "title": "How To Stay Productive When You Are Understaffed",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Ryan McDermott",
+    "date": "2020-01-08",
+    "description": "We all know that bad code can work because we all have written bad code. It is normal to write bad code. Having a guide to show you what is bad code can help you to write good code. I go through this repo from time to time fresh up my mind!",
+    "link": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "title": "clean-code-javascript",
+    "tag": "Github"
+  },
+  {
+    "author": "Yoni Goldberg",
+    "date": "2020-01-08",
+    "description": "Don't block the event loop! Please don't block the event loop! Please use best practices while working with nodejs! If you work with nodejs you have blocked the event loop and you shouldn't! This is why you need to read this guide of best practices for nodejs.",
+    "link": "https://github.com/goldbergyoni/nodebestpractices",
+    "title": "Node.js Best Practices",
+    "tag": "Github"
+  },
+  {
+    "author": "Kyle Simpson",
+    "date": "2020-01-08",
+    "description": "Functional programming is becoming a trend not just only in Javascript but in general at least in my bubble. Also, you should know more than just plain OOP.",
+    "link": "https://github.com/getify/Functional-Light-JS",
+    "title": "Functional-Light JavaScript",
+    "tag": "Book"
+  },
+  {
+    "author": "Vasa",
+    "date": "2020-01-08",
+    "description": "Security is a topic that is and was always important but with more things being in the cloud and digital. Security is becoming a top priority and also a sales point for a lot of companies.",
+    "link": "https://github.com/vasanthk/web-security-basics",
+    "title": "Web Security Basics",
+    "tag": "Github"
+  },
+  {
+    "author": "Daniel Stefanovic",
+    "date": "2020-01-08",
+    "description": "Build your own (insert technology here)",
+    "link": "https://github.com/danistefanovic/build-your-own-x",
+    "title": "Build your own",
+    "tag": "Github"
+  },
+  {
+    "author": "Vasa",
+    "date": "2020-01-08",
+    "description": "What happens behind the scenes when we type www.google.com in a browser?",
+    "link": "https://github.com/vasanthk/how-web-works",
+    "title": "How Web Works",
+    "tag": "Github"
+  },
+  {
+    "author": "Oleksii Trekhleb",
+    "date": "2020-01-08",
+    "description": "Algorithms and data structures implemented in JavaScript with explanations and links to further readings.",
+    "link": "https://github.com/trekhleb/javascript-algorithms",
+    "title": "JavaScript Algorithms and Data Structures",
+    "tag": "Github"
+  },
+  {
     "author": "Terence Eden",
     "date": "2020-01-06",
     "description": "The current web paradigm places web browsers as the access point for users to get information. In the near future, we'll see a diversity of user agents and devices (e.g. cars, microwaves, etc...) pull information straight off of web pages.",

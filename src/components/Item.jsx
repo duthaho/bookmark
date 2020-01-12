@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Bookmark from '../assets/bookmark.svg';
+import Github from '../assets/github.svg';
 import Trending from '../assets/trending.svg';
 import Guide from '../assets/guide.svg';
 import Interesting from '../assets/interesting.svg';
@@ -20,6 +21,7 @@ import {
 } from './Item.atoms';
 
 const icons = {
+  Github,
   Trending,
   Guide,
   Interesting,
