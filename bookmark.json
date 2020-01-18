@@ -1,5 +1,109 @@
 [
   {
+    "author": "Dan Abramov",
+    "date": "2020-01-18",
+    "description": "Developers strive for cleaner code. There's an inflection point when a developer starts writing code in abstraction, this feels like a \"super power.\" Dan learnt this comes with its own trade-offs. \"Clean code is not a goal.\"",
+    "link": "https://overreacted.io/goodbye-clean-code/",
+    "title": "Goodbye, Clean Code",
+    "tag": "Guide"
+  },
+  {
+    "author": "Sedat Kapanoglu",
+    "date": "2020-01-18",
+    "description": "A laundry list of changes seen by Sedat, including this - \"being a software development team now involves all team members performing a mysterious ritual of standing up together for 15 minutes in the morning and drawing occult symbols with post-its.\"",
+    "link": "https://medium.com/@ssg/how-is-computer-programming-different-today-than-20-years-ago-9d0154d1b6ce",
+    "title": "How Is Computer Programming Different Today Than 20 Years Ago?",
+    "tag": "Trending"
+  },
+  {
+    "author": "Curtis Poe",
+    "date": "2020-01-18",
+    "description": "Curtis runs through some tips on database design - whether to go with camel case names or underscore_names, plural or singular tables, column naming, and more.",
+    "link": "https://ovid.github.io/articles/database-design-standards.html",
+    "title": "Database Design Standards",
+    "tag": "Guide"
+  },
+  {
+    "author": "Rina Artstain",
+    "date": "2020-01-18",
+    "description": "A management style of communication that's \"kind and clear, specific and sincere\" is applied to both design and code reviews here.",
+    "link": "https://medium.com/@rinaarts/radical-candor-software-edition-d4b5ad401be3",
+    "title": "Radical Candor: Software Edition",
+    "tag": "Guide"
+  },
+  {
+    "author": "Coda Hale",
+    "date": "2020-01-18",
+    "description": "Org design is fetishized by corporate America always looking for some hack. There isn't one. Organizations are imperfect and, at very best, scale linearly. Despite that, there are tips on how to design a scaling organization here.",
+    "link": "https://codahale.com/work-is-work/",
+    "title": "Work Is Work",
+    "tag": "Think"
+  },
+  {
+    "author": "John Williams",
+    "date": "2020-01-18",
+    "description": "Seeing delays in large uploads to AWS, John discovered thousands of out-of-order packets causing retransmissions. When told this, AWS said that “out-of-order packets are not a bug.\" He discusses how the issue was fixed.",
+    "link": "https://m.signalvnoise.com/aws-s3-youre-out-of-order/",
+    "title": "AWS S3: You’re Out Of Order",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Gregory Szorc",
+    "date": "2020-01-18",
+    "description": "Divided into two parts, the first are the objective steps taken to migrate to Python 3. The second is the authors opinions. \"For Mercurial, Python 3 introduces a ton of problems and doesn't really solve many.\"",
+    "link": "https://gregoryszorc.com/blog/2020/01/13/mercurial's-journey-to-and-reflections-on-python-3/",
+    "title": "Mercurial's Journey To And Reflections On Python 3",
+    "tag": "Programing"
+  },
+  {
+    "author": "Paul Cowan",
+    "date": "2020-01-18",
+    "description": "ypeScript offers above basic type checking, but soundness and runtime type checking are not goals, and this leaves TypeScript in an unfortunate halfway house with one foot in a better world and one where we currently are.",
+    "link": "https://blog.logrocket.com/is-typescript-worth-it/",
+    "title": "Is TypeScript Worth It?",
+    "tag": "Programing"
+  },
+  {
+    "author": "Rondy Sousa",
+    "date": "2020-01-18",
+    "description": "This small repository is like a single article or checklist for software developers who want to improve speed of the dev process and learn quicker by improving learning habits.",
+    "link": "https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f",
+    "title": "Effective Engineer - Notes",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Yangshun Tay",
+    "date": "2020-01-18",
+    "description": "Great resource for any developer who struggles with passing through interview process. Algorithms section is cool packed piece of knowledge we all learn at first year at any university but then we forget it till we graduate and look for a first job.",
+    "link": "https://yangshun.github.io/tech-interview-handbook/introduction",
+    "title": "Tech Interview Handbook",
+    "tag": "Book"
+  },
+  {
+    "author": "Max Woolf",
+    "date": "2020-01-18",
+    "description": "Inside the repository, there is a file blns.txt. It contains a long list of strings that you may use while testing user inputs in your app. If you have a unit test with a data provider specified it may be pretty quick to implement a part of the list for the most crucial part of your app.",
+    "link": "https://github.com/minimaxir/big-list-of-naughty-strings",
+    "title": "Big List of Naughty Strings",
+    "tag": "Github"
+  },
+  {
+    "author": "Victor Felder",
+    "date": "2020-01-18",
+    "description": "Freely available programming books. It’s huge. If you were to read everything there one life would be not enough.",
+    "link": "https://ebookfoundation.github.io/free-programming-books/",
+    "title": "List of Free Learning Resources",
+    "tag": "Book"
+  },
+  {
+    "author": "R.I.Pienaar",
+    "date": "2020-01-18",
+    "description": "This is a list of tools that you may use in your daily work. Requirement for tools on that list is having some kind of free plan. You may be sure that if you don’t have enterprise needs you’ll find free apps here.",
+    "link": "https://github.com/ripienaar/free-for-dev",
+    "title": "Free For Developers",
+    "tag": "Github"
+  },
+  {
     "author": "Caleb Doxsey",
     "date": "2020-01-12",
     "description": "A response to the post above, Caleb argues that decreasing syscalls in a \"Hello World\" program results in \"imperceptible performance improvement\" while extra syscalls can provide value. Pursuing \"software minimalism\" doesn't always lead to improvements.",

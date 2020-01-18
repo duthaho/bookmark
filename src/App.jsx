@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
 import GitHubButton from 'react-github-btn';
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-  TwitterShareButton,
-  TwitterIcon,
-} from 'react-share';
 
 // Global CSS (e.g. body)
 import './global.scss';
@@ -84,8 +76,6 @@ export default class App extends Component {
 
   render() {
     const { listOfItems, activeFilter, term, fullList } = this.state;
-    const url = 'https://bookmark.duthaho.com';
-    const title = 'A reading list for programmer';
     return (
       <div>
         <BannerMessage>
@@ -94,15 +84,6 @@ export default class App extends Component {
             data-show-count="true"
             aria-label="Star duthaho/bookmark on GitHub"
           />
-          <TwitterShareButton url={url} title={title}>
-            <TwitterIcon round size={24} />
-          </TwitterShareButton>
-          <FacebookShareButton url={url} quote={title}>
-            <FacebookIcon round size={24} />
-          </FacebookShareButton>
-          <LinkedinShareButton url={url} title={title} description={title}>
-            <LinkedinIcon round size={24} />
-          </LinkedinShareButton>
         </BannerMessage>
         <Search search={this.searchFilter} term={term} />
         <Filter
@@ -124,10 +105,8 @@ App.propTypes = {
 fetch('bookmark.json').then(response => {
   // Process it
   response.json().then(data => {
-    // Sort by the dateClose (date discontinued)
-    const bookmark = data.sort(
-      (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
-    );
+    // Sort by the date
+    const bookmark = data.sort((a, b) => new Date(b.date) - new Date(a.date));
     // Render the app
     render(<App data={bookmark} />, document.querySelector('#bookmark'));
   });
