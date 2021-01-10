@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
     entry: './src/App.jsx',
     output: {
       path: path.resolve(__dirname, 'public'),
-      publicPath: '/',
+      publicPath: process.env.development ? '/' : '/bookmark/',
       filename: '[name].js',
     },
     module: {

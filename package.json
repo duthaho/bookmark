@@ -2,6 +2,7 @@
   "name": "bookmark",
   "version": "1.0.0",
   "description": "bookmark.duthaho.com",
+  "homepage": "https://duthaho.github.io/bookmark",
   "main": "src/index.js",
   "repository": "git@github.com:duthaho/bookmark.git",
   "author": "duthaho",
@@ -34,6 +35,7 @@
     "eslint-plugin-react": "7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "file-loader": "4.2.0",
+    "gh-pages": "^3.1.0",
     "jest": "24.9.0",
     "jest-resolve": "24.9.0",
     "json-loader": "^0.5.7",
@@ -72,6 +74,8 @@
     "lint": "eslint \"src/**/*.{jsx,js}\" && eslint bookmark.json",
     "test": "yarn lint && jest",
     "fmt": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json}'",
-    "jest": "jest"
+    "jest": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   }
 }
