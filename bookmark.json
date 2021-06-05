@@ -1,5 +1,77 @@
 [
   {
+    "author": "Yuchen Wu",
+    "date": "2021-06-05",
+    "description": "Placing assets in memory, there's a trade-off between \"memory usage, tail hit latency and SSD lifetimes.\"",
+    "link": "https://blog.cloudflare.com/why-we-started-putting-unpopular-assets-in-memory/",
+    "title": "Why We Started Putting Unpopular Assets In Memory",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Feross Aboukhadijeh",
+    "date": "2021-06-05",
+    "description": "Stanford's course on web security - \"this course is a comprehensive overview of web security. The goal is to build an understanding of the most common web attacks and their countermeasures.\"",
+    "link": "https://cs253.stanford.edu/",
+    "title": "CS 253 Web Security",
+    "tag": "Security"
+  },
+  {
+    "author": "Gergely Orosz",
+    "date": "2021-06-05",
+    "description": "This article is a set of real-world examples where data structures like trees, graphs, and various algorithms were used in production.",
+    "link": "https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/",
+    "title": "Data Structures & Algorithms I Actually Used Working At Tech Companies",
+    "tag": "Algorithm"
+  },
+  {
+    "author": "Haki Benita",
+    "date": "2021-06-05",
+    "description": "Haki shares \"non-trivial tips\" around database development with explanations, such as (1) update only what needs updating (2) disable constraints and indexes during bulk loads, and more",
+    "link": "https://hakibenita.com/sql-tricks-application-dba",
+    "title": "Some SQL Tricks Of An Application DBA",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Robert Heaton",
+    "date": "2021-06-05",
+    "description": "Practical run-through of a typical architecture setup for a web and mobile application. Robert explains concepts like webhooks, databases, and more.",
+    "link": "https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/",
+    "title": "Systems Design For Advanced Beginners",
+    "tag": "Architecture"
+  },
+  {
+    "author": "Uduak Obong-Eren",
+    "date": "2021-06-05",
+    "description": "Uduak guides through 13 things he's learned before, during and after interviews, such as how to handle introductory phone and technical phone calls, what to do when you’re stuck on a problem in the interview, and more.",
+    "link": "https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days-ckda9sn7s00iftss13b0wd0ky",
+    "title": "What I Learned From Doing 60+ Technical Interviews In 30 Days",
+    "tag": "Interesting"
+  },
+  {
+    "author": "Jonas Lundberg",
+    "date": "2021-06-05",
+    "description": "With the end goal of building a mental model of an existing codebase, Jonas discusses useful techniques, such as the \"generation effect\" - making sure you are \"forced to come up with an answer to a question pays off.\"",
+    "link": "https://www.iamjonas.me/2020/08/how-to-read-code.html",
+    "title": "How To Read A Code",
+    "tag": "Guide"
+  },
+  {
+    "author": "Tapas Adhikary",
+    "date": "2021-06-05",
+    "description": "In this article, I am going to talk about 10 more web APIs that are not so popular.",
+    "link": "https://blog.greenroots.info/10-lesser-known-web-apis-you-may-want-to-use-ckejv75cr012y70s158n85yhn",
+    "title": "10 Lesser-known Web APIs You May Want To Use",
+    "tag": "Interesting"
+  },
+  {
+    "author": "CatchJS",
+    "date": "2021-06-05",
+    "description": "We rendered the top 1 million pages on the web, tracking every conceivable performance metric, logging every error, noting every requested URL. In this article we analyze what the data can tell us about creating high performance web sites.",
+    "link": "https://catchjs.com/Blog/PerformanceInTheWild",
+    "title": "We Rendered A Million Web Pages To Find Out What Makes The Web Slow",
+    "tag": "Interesting"
+  },
+  {
     "author": "Zack Bloom",
     "date": "2020-03-15",
     "description": "How the URL evolved, stemming from a meeting trying to resolve overcrowding of ARPANET hosts.",
@@ -53,7 +125,7 @@
     "description": "In this post I want to share my experiences and tips on how to set up Elasticsearch correctly and avoid common pitfalls.",
     "link": "https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/",
     "title": "In Depth Guide To Running Elasticsearch In Production",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Alex Pareto",
@@ -61,7 +133,7 @@
     "description": "There isn't much documentation on the technical challenges that occur due to rapid growth. Alex has done this several times and distilled what he's learnt here.",
     "link": "https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html",
     "title": "Scaling To 100k Users",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "",
@@ -69,7 +141,7 @@
     "description": "Demand for AR/VR and gaming engineering roles are growing fastest, insight into salaries based on location and other trends",
     "link": "https://hired.com/page/state-of-software-engineers",
     "title": "State Of Software Engineers",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Eric Lawrence",
@@ -149,7 +221,7 @@
     "description": "At its core, pair programming builds skills that \"help immensely to become a well-functioning, collaborative and effective team,\" such as valuable qualities i.e. focus, communication, giving and receiving feedback, empathy and vulnerability.",
     "link": "https://martinfowler.com/articles/on-pair-programming.html",
     "title": "On Pair Programming",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Das Surma",
@@ -173,7 +245,7 @@
     "description": "A laundry list of changes seen by Sedat, including this - \"being a software development team now involves all team members performing a mysterious ritual of standing up together for 15 minutes in the morning and drawing occult symbols with post-its.\"",
     "link": "https://medium.com/@ssg/how-is-computer-programming-different-today-than-20-years-ago-9d0154d1b6ce",
     "title": "How Is Computer Programming Different Today Than 20 Years Ago?",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Curtis Poe",
@@ -397,7 +469,7 @@
     "description": "The current web paradigm places web browsers as the access point for users to get information. In the near future, we'll see a diversity of user agents and devices (e.g. cars, microwaves, etc...) pull information straight off of web pages.",
     "link": "https://shkspr.mobi/blog/2019/12/the-future-of-the-web-isnt-the-web/",
     "title": "The Future Of The Web, Isn’t The Web",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Alex Nixon",
@@ -445,7 +517,7 @@
     "description": "'Enmeshment' is where the boundaries between people become blurred, and individual identities lose importance. You can become enmeshed with your career too. This article discusses why this happens, the dangers and what you can do.",
     "link": "https://hbr.org/2019/12/what-happens-when-your-career-becomes-your-whole-identity",
     "title": "What Happens When Your Career Becomes Your Whole Identity",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Fortuna Eruditis Favet",
@@ -461,7 +533,7 @@
     "description": "Podcast interview with Vadim Semenov discussing 'the systems that DataDog has built to power their business, and how their teams are organized to allow for rapid growth and massive scale.'",
     "link": "https://www.dataengineeringpodcast.com/datadog-timeseries-data-episode-113/",
     "title": "Building The DataDog Platform For Processing Timeseries Data At Massive Scale",
-    "tag": "Trending"
+    "tag": "Interesting"
   },
   {
     "author": "Tuukka Ojala",

@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 
 import Bookmark from '../assets/bookmark.svg';
 import Github from '../assets/github.svg';
-import Trending from '../assets/trending.svg';
 import Guide from '../assets/guide.svg';
 import Interesting from '../assets/interesting.svg';
 import Programing from '../assets/programing.svg';
 import Think from '../assets/think.svg';
 import Book from '../assets/book.svg';
+import Security from '../assets/security.svg';
+import Algorithm from '../assets/algorithm.svg';
+import Architecture from '../assets/architecture.svg';
 
 // Import Styled Components
 import {
@@ -22,12 +24,14 @@ import {
 
 const icons = {
   Github,
-  Trending,
   Guide,
   Interesting,
   Programing,
   Think,
   Book,
+  Security,
+  Algorithm,
+  Architecture,
 };
 
 const Item = props => {

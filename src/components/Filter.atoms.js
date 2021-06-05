@@ -8,6 +8,7 @@ export const FilterList = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0 0 15px 0;
+  flex-flow: row wrap;
   @media screen and (min-width: 700px) {
     li:not(:first-of-type):before {
       content: ' - ';

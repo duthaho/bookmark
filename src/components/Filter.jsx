@@ -20,12 +20,14 @@ export default class Filter extends Component {
     // Get the counts for each time
     const counts = [
       'Github',
-      'Trending',
       'Guide',
       'Think',
       'Programing',
       'Interesting',
       'Book',
+      'Security',
+      'Algorithm',
+      'Architecture'
     ].map(tag => items.filter(item => item.tag === tag).length);
     // Unshift the total count for the `all` option
     counts.unshift(items.length);
@@ -50,12 +52,14 @@ export default class Filter extends Component {
         {[
           ['All', false],
           ['Github', 'Github'],
-          ['Trending', 'Trending'],
           ['Guide', 'Guide'],
           ['Think', 'Think'],
           ['Programing', 'Programing'],
           ['Interesting', 'Interesting'],
           ['Book', 'Book'],
+          ['Security', 'Security'],
+          ['Algorithm', 'Algorithm'],
+          ['Architecture', 'Architecture'],
         ].map((tag, index) => (
           <FilterItem
             active={active === index}
